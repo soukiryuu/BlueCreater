@@ -1,0 +1,1 @@
+create table IF NOT EXISTS user_setting (notification_day INTEGER,notification_hour INTEGER,work_num INTEGER,start_time TIME,end_time TIME,break_time TIME,sum_time TIME,user_id char NOT NULL,del_flg integer DEFAULT 0,PRIMARY KEY(user_id));

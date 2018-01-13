@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sum2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合計2" />
+
+        <TextView
+            android:id="@+id/sum2_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/time_background"
+            android:padding="5dp"
+            android:text="00:00"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remarks1_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="備考1" />
+
+        <TextClock
+            android:id="@+id/remarks1_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/time_background"
+            android:padding="5dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remarks2_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="備考2" />
+
+        <TextClock
+            android:id="@+id/remarks2_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/time_background"
+            android:padding="5dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</TableRow>

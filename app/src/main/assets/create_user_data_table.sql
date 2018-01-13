@@ -1,0 +1,1 @@
+create table IF NOT EXISTS user_data (user_id char NOT NULL,password char NOT NULL,signin_date DATE,del_flg integer DEFAULT 0,PRIMARY KEY(user_id));

@@ -1,0 +1,1 @@
+create table IF NOT EXISTS management_month (sum_management_time TIME,sum_management_time_minute INTEGER,insert_year_month CHAR NOT NULL,user_id char NOT NULL,del_flg integer DEFAULT 0,PRIMARY KEY(insert_year_month,user_id));
